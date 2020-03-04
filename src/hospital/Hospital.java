@@ -45,20 +45,8 @@ public class Hospital extends Funcionario {
         
     } 
         
-    
-    
-    
-    
-   
-        
-        
-        
-        
-        
-        
-        
-        
-        
+      
+            
          public Hospital( int idHospital){
             
             this.IdHospital = IdHospital;

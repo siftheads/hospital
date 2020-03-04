@@ -4,7 +4,7 @@ package hospital;
 import java.util.Objects;
 
 
-public class ProntoSocorro extends Hospital {
+public class ProntoSocorro{
     private Hospital matriz;
     private int IdFilial;
     private String Endereco;
@@ -58,7 +58,7 @@ public class ProntoSocorro extends Hospital {
         
         
         
-        public ProntoSocorro(Hospital matriz, int idFilial){
+       ProntoSocorro(Hospital matriz, int idFilial){
             this.matriz = matriz;
             this.IdFilial = idFilial;
         
@@ -66,7 +66,7 @@ public class ProntoSocorro extends Hospital {
 
         
      
-}        
+}         
     
 
 
